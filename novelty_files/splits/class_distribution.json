@@ -1,0 +1,35 @@
+{
+  "total_images": 75855,
+  "num_classes": 8,
+  "class_distribution": {
+    "hit": 4133,
+    "kick": 5950,
+    "punch": 8921,
+    "push": 10335,
+    "ride_horse": 16971,
+    "shoot_gun": 9832,
+    "stand": 11259,
+    "wave": 8454
+  },
+  "class_to_idx": {
+    "hit": 0,
+    "kick": 1,
+    "punch": 2,
+    "push": 3,
+    "ride_horse": 4,
+    "shoot_gun": 5,
+    "stand": 6,
+    "wave": 7
+  },
+  "idx_to_class": {
+    "0": "hit",
+    "1": "kick",
+    "2": "punch",
+    "3": "push",
+    "4": "ride_horse",
+    "5": "shoot_gun",
+    "6": "stand",
+    "7": "wave"
+  },
+  "imbalance_ratio": 4.106218243406726
+}

@@ -1,0 +1,23 @@
+{
+  "notebook": "Notebook 3: NSL & Graphs",
+  "completed": true,
+  "timestamp": "2025-12-29T14:32:51.660686",
+  "outputs": {
+    "train_features_shape": [
+      53097,
+      768
+    ],
+    "val_features_shape": [
+      11379,
+      768
+    ],
+    "graph_nodes": 53097,
+    "graph_edges": 265485,
+    "k_neighbors": 5
+  },
+  "nsl_functions": [
+    "virtual_adversarial_loss",
+    "l2_neighbor_loss",
+    "nsl_loss"
+  ]
+}
