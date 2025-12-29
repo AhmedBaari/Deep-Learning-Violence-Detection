@@ -1,0 +1,17 @@
+{
+  "02_ViT_Base": {
+    "val_accuracy": 97.38992881624044,
+    "loaded_from_checkpoint": true,
+    "checkpoint_path": "novelty_files/checkpoints/vit_baseline.pt"
+  },
+  "13_ViT_CBAM_PGD": {
+    "val_accuracy": 99.78029703840407,
+    "loaded_from_checkpoint": true,
+    "checkpoint_path": "novelty_files/checkpoints/adversarial_finetuned.pt"
+  },
+  "15_FULL_PIPELINE": {
+    "val_accuracy": 99.78029703840407,
+    "loaded_from_checkpoint": true,
+    "checkpoint_path": "novelty_files/checkpoints/adversarial_finetuned.pt"
+  }
+}

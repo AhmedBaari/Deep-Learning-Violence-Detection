@@ -1,0 +1,15 @@
+{
+  "notebook": "Notebook 8: Final Evaluation",
+  "completed": true,
+  "timestamp": "2025-12-29T17:35:56.343826",
+  "test_accuracy": 99.78908515686791,
+  "target_met": true,
+  "outputs": [
+    "novelty_files/metrics/final_results.json",
+    "novelty_files/visualizations/confusion_matrix.png",
+    "novelty_files/visualizations/roc_curves.png",
+    "novelty_files/visualizations/binary_confusion_matrix.png",
+    "novelty_files/metrics/benchmark_comparison.csv",
+    "novelty_files/metrics/per_class_metrics.csv"
+  ]
+}

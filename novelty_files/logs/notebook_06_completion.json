@@ -1,0 +1,13 @@
+{
+  "notebook": "Notebook 6: Adversarial Fine-Tuning",
+  "completed": true,
+  "timestamp": "2025-12-29T17:16:01.568376",
+  "val_accuracy": 99.78029703840407,
+  "target_met": true,
+  "techniques": [
+    "CBAM Attention",
+    "PGD Adversarial Training",
+    "Multi-stage Fine-tuning"
+  ],
+  "checkpoint": "novelty_files/checkpoints/adversarial_finetuned.pt"
+}

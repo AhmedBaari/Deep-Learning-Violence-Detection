@@ -1,0 +1,11 @@
+{
+  "notebook": "Notebook 7: Ablation Studies",
+  "completed": true,
+  "timestamp": "2025-12-29T17:24:22.882920",
+  "total_configs": 15,
+  "evaluated_configs": 3,
+  "best_accuracy": 99.78029703840407,
+  "baseline_accuracy": 71.0,
+  "improvement": 28.780297038404072,
+  "target_met": true
+}
