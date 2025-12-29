@@ -1,0 +1,42 @@
+{
+  "dataset_path": "./fight_dataset/actions (2)/actions",
+  "base_dir": "novelty_files",
+  "image_size": 224,
+  "imagenet_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "imagenet_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "train_ratio": 0.7,
+  "val_ratio": 0.15,
+  "test_ratio": 0.15,
+  "classes": {
+    "0": "hit",
+    "1": "kick",
+    "2": "punch",
+    "3": "push",
+    "4": "ride_horse",
+    "5": "shoot_gun",
+    "6": "stand",
+    "7": "wave"
+  },
+  "num_classes": 8,
+  "violence_classes": [
+    "hit",
+    "kick",
+    "punch",
+    "shoot_gun"
+  ],
+  "non_violence_classes": [
+    "push",
+    "ride_horse",
+    "stand",
+    "wave"
+  ],
+  "random_seed": 42
+}

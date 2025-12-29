@@ -1,0 +1,17 @@
+cd /SASTRA-NEW-CLUSTER/users/baari/STUDIO/MajorProject/novelty_implementation && conda activate "major project" && python -c "import torch; print(f'PyTorch: {torch.__version__}'); print(f'CUDA available: {torch.cuda.is_available()}'); print(f'GPUs detected: {torch.cuda.device_count()}'); print(f'NCCL available: {torch.distributed.is_nccl_available()}')"
+
+conda activate "major project"
+
+# LIVE
+torchrun --nproc_per_node=8 --nnodes=1 --node_rank=0 \
+  --master_addr=localhost --master_port=29500 \
+  /SASTRA-NEW-CLUSTER/users/baari/STUDIO/MajorProject/novelty_implementation/4_training_pipeline_ddp.py
+
+
+# BACKGROUND
+cd /SASTRA-NEW-CLUSTER/users/baari/STUDIO/MajorProject/ && conda activate "major project" && nohup torchrun --nproc_per_node=8 --nnodes=1 --node_rank=0 --master_addr=localhost --master_port=29500 /SASTRA-NEW-CLUSTER/users/baari/STUDIO/MajorProject/novelty_implementation/4_training_pipeline_ddp.py > novelty_files/logs/ddp_training_$(date +%Y%m%d_%H%M%S).log 2>&1 &
+
+
+# LOGS
+tail -f ../novelty_files/logs/ddp_training_*.log
+

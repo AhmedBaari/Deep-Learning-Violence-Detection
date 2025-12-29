@@ -1,0 +1,9 @@
+{
+  "notebook": "Notebook 2: ViT Baseline",
+  "completed": true,
+  "val_accuracy": 97.38992881624044,
+  "baseline_vgg16": 71.0,
+  "improvement": 26.38992881624044,
+  "model_params": 85804808,
+  "checkpoint": "novelty_files/checkpoints/vit_baseline.pt"
+}

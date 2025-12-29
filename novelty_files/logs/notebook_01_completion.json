@@ -1,0 +1,20 @@
+{
+  "notebook": "Notebook 1: Data Preparation & Splits",
+  "completed": true,
+  "timestamp": "2025-12-29T13:30:21.284963",
+  "dataset_stats": {
+    "total_images": 75855,
+    "num_classes": 8,
+    "train_samples": 53097,
+    "val_samples": 11379,
+    "test_samples": 11379
+  },
+  "outputs_created": [
+    "novelty_files/configs/notebook_01_config.json",
+    "novelty_files/splits/train_indices.pkl",
+    "novelty_files/splits/val_indices.pkl",
+    "novelty_files/splits/test_indices.pkl",
+    "novelty_files/splits/class_distribution.json",
+    "novelty_files/visualizations/sample_images_per_class.png"
+  ]
+}
