@@ -1,0 +1,14 @@
+Configuration,Description,Components,Accuracy (%),Epoch,Model
+13_ViT_CBAM_PGD,ViT + CBAM + PGD,"ViT, CBAM, PGD",99.78029703840407,N/A,vit_cbam
+15_FULL_PIPELINE,ViT + CBAM + Aug + NSL + PGD + DDP (8 GPUs),"ViT, CBAM, MixUp, CutMix, NSL, PGD, DDP",99.78029703840407,N/A,vit_cbam
+06_ViT_MixUp_CutMix,ViT + MixUp + CutMix,"ViT, MixUp, CutMix",99.32331487828456,1,vit
+08_ViT_Aug_NSL,ViT + Augmentation + NSL,"ViT, MixUp, CutMix, NSL",99.26179804903771,1,vit
+05_ViT_CutMix,ViT + CutMix,"ViT, CutMix",99.20028121979084,1,vit
+11_ViT_CBAM_Aug,ViT + CBAM + Augmentation,"ViT, CBAM, MixUp, CutMix",99.12118815361632,1,vit_cbam
+10_ViT_CBAM,ViT + CBAM Attention,"ViT, CBAM",98.56753669039459,1,vit_cbam
+04_ViT_MixUp,ViT + MixUp,"ViT, MixUp",98.50601986114773,1,vit
+12_ViT_PGD,ViT + PGD Adversarial,"ViT, PGD",98.40056243958169,1,vit
+03_ViT_BasicAug,ViT + Basic Augmentation,"ViT, BasicAug",98.00509710870902,1,vit
+02_ViT_Base,ViT-Base/16 only,ViT,97.38992881624044,N/A,vit
+07_ViT_NSL,ViT + NSL (VAT + Neighbor),"ViT, NSL",96.35293083750769,1,vit
+01_VGG16_Baseline,VGG-16 (from base paper),Baseline,71.0,5,vgg16

@@ -1,0 +1,155 @@
+{
+  "03_ViT_BasicAug": {
+    "val_accuracy": 98.00509710870902,
+    "epoch": 1,
+    "config": {
+      "name": "03_ViT_BasicAug",
+      "model_type": "vit",
+      "epochs": 1,
+      "batch_size": 64,
+      "learning_rate": 0.0001,
+      "use_basicaug": true,
+      "use_mixup": false,
+      "use_cutmix": false,
+      "use_nsl": false,
+      "use_cbam": false,
+      "use_pgd": false
+    }
+  },
+  "04_ViT_MixUp": {
+    "val_accuracy": 98.50601986114773,
+    "epoch": 1,
+    "config": {
+      "name": "04_ViT_MixUp",
+      "model_type": "vit",
+      "epochs": 1,
+      "batch_size": 64,
+      "learning_rate": 0.0001,
+      "use_basicaug": false,
+      "use_mixup": true,
+      "use_cutmix": false,
+      "use_nsl": false,
+      "use_cbam": false,
+      "use_pgd": false
+    }
+  },
+  "05_ViT_CutMix": {
+    "val_accuracy": 99.20028121979084,
+    "epoch": 1,
+    "config": {
+      "name": "05_ViT_CutMix",
+      "model_type": "vit",
+      "epochs": 1,
+      "batch_size": 64,
+      "learning_rate": 0.0001,
+      "use_basicaug": false,
+      "use_mixup": false,
+      "use_cutmix": true,
+      "use_nsl": false,
+      "use_cbam": false,
+      "use_pgd": false
+    }
+  },
+  "06_ViT_MixUp_CutMix": {
+    "val_accuracy": 99.32331487828456,
+    "epoch": 1,
+    "config": {
+      "name": "06_ViT_MixUp_CutMix",
+      "model_type": "vit",
+      "epochs": 1,
+      "batch_size": 64,
+      "learning_rate": 0.0001,
+      "use_basicaug": false,
+      "use_mixup": true,
+      "use_cutmix": true,
+      "use_nsl": false,
+      "use_cbam": false,
+      "use_pgd": false
+    }
+  },
+  "07_ViT_NSL": {
+    "val_accuracy": 96.35293083750769,
+    "epoch": 1,
+    "config": {
+      "name": "07_ViT_NSL",
+      "model_type": "vit",
+      "epochs": 1,
+      "batch_size": 64,
+      "learning_rate": 0.0001,
+      "use_basicaug": false,
+      "use_mixup": false,
+      "use_cutmix": false,
+      "use_nsl": true,
+      "use_cbam": false,
+      "use_pgd": false
+    }
+  },
+  "08_ViT_Aug_NSL": {
+    "val_accuracy": 99.26179804903771,
+    "epoch": 1,
+    "config": {
+      "name": "08_ViT_Aug_NSL",
+      "model_type": "vit",
+      "epochs": 1,
+      "batch_size": 64,
+      "learning_rate": 0.0001,
+      "use_basicaug": false,
+      "use_mixup": true,
+      "use_cutmix": true,
+      "use_nsl": true,
+      "use_cbam": false,
+      "use_pgd": false
+    }
+  },
+  "10_ViT_CBAM": {
+    "val_accuracy": 98.56753669039459,
+    "epoch": 1,
+    "config": {
+      "name": "10_ViT_CBAM",
+      "model_type": "vit",
+      "epochs": 1,
+      "batch_size": 64,
+      "learning_rate": 0.0001,
+      "use_basicaug": false,
+      "use_mixup": false,
+      "use_cutmix": false,
+      "use_nsl": false,
+      "use_cbam": true,
+      "use_pgd": false
+    }
+  },
+  "11_ViT_CBAM_Aug": {
+    "val_accuracy": 99.12118815361632,
+    "epoch": 1,
+    "config": {
+      "name": "11_ViT_CBAM_Aug",
+      "model_type": "vit",
+      "epochs": 1,
+      "batch_size": 64,
+      "learning_rate": 0.0001,
+      "use_basicaug": false,
+      "use_mixup": true,
+      "use_cutmix": true,
+      "use_nsl": false,
+      "use_cbam": true,
+      "use_pgd": false
+    }
+  },
+  "12_ViT_PGD": {
+    "val_accuracy": 98.40056243958169,
+    "epoch": 1,
+    "config": {
+      "name": "12_ViT_PGD",
+      "model_type": "vit",
+      "epochs": 1,
+      "batch_size": 32,
+      "learning_rate": 0.0001,
+      "use_basicaug": false,
+      "use_mixup": false,
+      "use_cutmix": false,
+      "use_nsl": false,
+      "use_cbam": false,
+      "use_pgd": true
+    }
+  }
+}

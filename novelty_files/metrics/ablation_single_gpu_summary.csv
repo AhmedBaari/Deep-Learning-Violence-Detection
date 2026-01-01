@@ -1,0 +1,10 @@
+Configuration,Val Accuracy (%),Epochs
+03_ViT_BasicAug,98.01,1
+04_ViT_MixUp,98.51,1
+05_ViT_CutMix,99.20,1
+06_ViT_MixUp_CutMix,99.32,1
+07_ViT_NSL,96.35,1
+08_ViT_Aug_NSL,99.26,1
+10_ViT_CBAM,98.57,1
+11_ViT_CBAM_Aug,99.12,1
+12_ViT_PGD,98.40,1

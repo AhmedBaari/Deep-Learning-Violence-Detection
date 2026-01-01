@@ -13,5 +13,65 @@
     "val_accuracy": 99.78029703840407,
     "loaded_from_checkpoint": true,
     "checkpoint_path": "novelty_files/checkpoints/adversarial_finetuned.pt"
+  },
+  "01_VGG16_Baseline": {
+    "val_accuracy": 71.0,
+    "epoch": 5,
+    "loaded_from_checkpoint": true,
+    "checkpoint_path": "novelty_files/checkpoints/ablation/01_VGG16_Baseline.pt"
+  },
+  "03_ViT_BasicAug": {
+    "val_accuracy": 98.00509710870902,
+    "epoch": 1,
+    "loaded_from_checkpoint": true,
+    "checkpoint_path": "novelty_files/checkpoints/ablation/03_ViT_BasicAug.pt"
+  },
+  "04_ViT_MixUp": {
+    "val_accuracy": 98.50601986114773,
+    "epoch": 1,
+    "loaded_from_checkpoint": true,
+    "checkpoint_path": "novelty_files/checkpoints/ablation/04_ViT_MixUp.pt"
+  },
+  "05_ViT_CutMix": {
+    "val_accuracy": 99.20028121979084,
+    "epoch": 1,
+    "loaded_from_checkpoint": true,
+    "checkpoint_path": "novelty_files/checkpoints/ablation/05_ViT_CutMix.pt"
+  },
+  "06_ViT_MixUp_CutMix": {
+    "val_accuracy": 99.32331487828456,
+    "epoch": 1,
+    "loaded_from_checkpoint": true,
+    "checkpoint_path": "novelty_files/checkpoints/ablation/06_ViT_MixUp_CutMix.pt"
+  },
+  "07_ViT_NSL": {
+    "val_accuracy": 96.35293083750769,
+    "epoch": 1,
+    "loaded_from_checkpoint": true,
+    "checkpoint_path": "novelty_files/checkpoints/ablation/07_ViT_NSL.pt"
+  },
+  "08_ViT_Aug_NSL": {
+    "val_accuracy": 99.26179804903771,
+    "epoch": 1,
+    "loaded_from_checkpoint": true,
+    "checkpoint_path": "novelty_files/checkpoints/ablation/08_ViT_Aug_NSL.pt"
+  },
+  "10_ViT_CBAM": {
+    "val_accuracy": 98.56753669039459,
+    "epoch": 1,
+    "loaded_from_checkpoint": true,
+    "checkpoint_path": "novelty_files/checkpoints/ablation/10_ViT_CBAM.pt"
+  },
+  "11_ViT_CBAM_Aug": {
+    "val_accuracy": 99.12118815361632,
+    "epoch": 1,
+    "loaded_from_checkpoint": true,
+    "checkpoint_path": "novelty_files/checkpoints/ablation/11_ViT_CBAM_Aug.pt"
+  },
+  "12_ViT_PGD": {
+    "val_accuracy": 98.40056243958169,
+    "epoch": 1,
+    "loaded_from_checkpoint": true,
+    "checkpoint_path": "novelty_files/checkpoints/ablation/12_ViT_PGD.pt"
   }
 }

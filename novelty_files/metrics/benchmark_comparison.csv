@@ -1,0 +1,5 @@
+Model,Year,Architecture,Accuracy (%),Parameters (M),Training
+VGG-16 (Base Paper),2020,CNN,71.0,138,Single GPU
+ViT-Base (Baseline),2024,Transformer,80.0,86,Single GPU
+ViT + NSL + DDP,2024,Transformer + NSL,99.8,86,8× H200 GPUs
+Our Model (Best),2024,ViT + CBAM + NSL + PGD,99.78908515686791,86,8× H200 GPUs
